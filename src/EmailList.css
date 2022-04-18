@@ -1,7 +1,6 @@
 .emailList {
     flex: 1;
     overflow: scroll;
-    /* overflow: hidden; */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */

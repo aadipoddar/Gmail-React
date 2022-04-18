@@ -19,7 +19,6 @@ function App() {
   useEffect(() => {
     auth.onAuthStateChanged(user => {
       if (user) {
-        // the user is logged in
         dispatch(
           login({
             displayName: user.displayName,
@@ -49,8 +48,6 @@ function App() {
             </Switch>
           </div>
           {sendMessageIsOpen && <SendMail />}
-
-          {/* <h2>lets build gmail-clone</h2> */}
         </div>
       )}
     </Router>

@@ -2,6 +2,7 @@ import { Button } from '@material-ui/core'
 import { useDispatch } from 'react-redux'
 import { login } from './features/userSlice'
 import { auth, provider } from './firebase'
+import './Login.css'
 
 function Login() {
     const dispatch = useDispatch()
