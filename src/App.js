@@ -3,6 +3,7 @@ import './App.css'
 import Header from './Header'
 import Sidebar from './Sidebar'
 import EmailList from './EmailList'
+import Mail from './Mail'
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <Sidebar />
           <Switch>
             <Route path="/mail">
-              {/* <Mail /> */}
+              <Mail />
             </Route>
             <Route path="/">
               <EmailList />
